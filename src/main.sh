@@ -1,26 +1,4 @@
 #!/usr/bin/env bash
-set -e
-
-legacy() {
-  legacy=$1
-}
-
-module() {
-  module=$1
-}
-
-public() {
-  public=$1
-}
-
-use() {
-  use=$1
-}
-
-embed() {
-  embed=$1
-}
-#!/usr/bin/env bash
 # shellcheck disable=SC2155
 # Disabled "Declare and assign separately to avoid masking return values": https://github.com/koalaman/shellcheck/wiki/SC2155
 
@@ -1641,4 +1619,3 @@ else
     shift
   done
 fi
-main "$@"

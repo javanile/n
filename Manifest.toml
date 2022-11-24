@@ -1,0 +1,7 @@
+[package]
+name = "n"
+version = "9.0.1"
+description = "Interactively Manage All Your Node Versions"
+license = "MIT"
+edition = "2022"
+shebang = ""
