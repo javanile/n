@@ -1,0 +1,3 @@
+
+public activate
+public install
